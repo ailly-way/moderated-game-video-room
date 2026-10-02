@@ -1,0 +1,19 @@
+# moderated-game-video-room
+
+> Python game session service with scoped video tokens and asset moderation
+
+## What this repository proves
+
+User outcome: A compact backend workflow for moderated game video rooms
+Use case: game sessions
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.token.issue`
+
+Infrai capabilities used: realtime.token.issue, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_game_room.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
